@@ -1,0 +1,77 @@
+[
+  {
+    "description": "Дело Стекла",
+    "author": "Glebguything",
+    "url": "https://www.reddit.com/r/bytebeat/comments/124vjnx/%D0%B4%D0%B5%D0%BB%D0%BE_%D1%81%D1%82%D0%B5%D0%BA%D0%BB%D0%B0/",
+    "date": "2023-03-28",
+    "codeOriginal": "((t*(t>>9&26)|((t>>9&42)+(t>>12&34))*((t>>9|42)+(t>>12&t)))/+sin(t%(t%5))/400)%256*(-t*2&2047)/2E3"
+  },
+  {
+    "description": "my new ringtone",
+    "author": "psubscirbe",
+    "url": "https://www.reddit.com/r/bytebeat/comments/124v5ky/my_new_ringtone/",
+    "date": "2023-03-28",
+    "sampleRate": 32000,
+    "codeOriginal": "u=0,o=(r,e)=>(t>>e)*[5,6,7,u,9,u,8,3,5,7,6,5,4,3,u,u,u,u,4,5,8,7,6,5,4,u,u,2,2,2,1,1,u,1,u,u][(t>>12)%36]|r,[((o(t>>4,\"20\"[(t>>17)%2]))+(o(t>>8,\"21\"[(t>>17)%2])))|(t>>5|t>>7),((o(t>>4,\"20\"[(t>>17)%2]))+(o(t>>8,\"21\"[(t>>17)%2])))|(t>>4|t>>5)]"
+  },
+  {
+    "description": "my forgotten bytebeat code...",
+    "remixed": {
+      "description": "9|9",
+      "author": "KingDCNT"
+    },
+    "author": "Cool_ObbyDeveloper",
+    "url": "https://www.reddit.com/r/bytebeat/comments/124ue41/my_forgotten_bytebeat_code/",
+    "date": "2023-03-28",
+    "sampleRate": 11025,
+    "codeOriginal": "t*(t>>9|42|9|6&t)"
+  },
+  {
+    "description": "Attack of the game",
+    "author": "Glebguything",
+    "url": "https://www.reddit.com/r/bytebeat/comments/124vxd7/attack_of_the_game/",
+    "date": "2023-03-28",
+    "codeOriginal": "t/=6,(t*(t>>4&t>>8&84)+t*(t>>12&42)|t>>3+sin(t/2/(t*4%4096))*50)%256/2+(t*8|t/2)%256/2"
+  },
+  {
+    "description": "Something",
+    "author": "Glebguything",
+    "url": "https://www.reddit.com/r/bytebeat/comments/124urwf/something/",
+    "date": "2023-03-28",
+    "sampleRate": 48000,
+    "codeOriginal": "t/=6,Array(t%6/2*(1323*sin(t*PI/65536)|2)),t/4*(t>>9&38)*(t>>12&635)*(t>>10&50)|t>>3",
+    "starred": 1
+  },
+  {
+    "description": "Best loop ever i guess",
+    "author": "Glebguything",
+    "url": "https://www.reddit.com/r/bytebeat/comments/124i0hw/best_loop_ever_i_guess/",
+    "date": "2023-03-28",
+    "sampleRate": 48000,
+    "codeOriginal": "t=t/6.9%33000,(t*15%450*t&t>>4|t>>9%(t>>12)|(t*2&t>>5|t*4&t>>7|t*8&t>>6)+(t*16|t>>5))+50"
+  },
+  {
+    "description": "X6B6XX remix",
+    "author": "Kehkeown_Uai",
+    "url": "https://www.reddit.com/r/bytebeat/comments/124ksf6/x6b6xx_remix/",
+    "date": "2023-03-28",
+    "sampleRate": 32000,
+    "codeOriginal": "r=t^12,f=r&128-t>>1,s=f-r>>4&t>>6,fx=(s&r*f/127)-r%s>>1,s+fx/63-t/f|t>>(t>>9)"
+  },
+  {
+    "description": "morse code encoder",
+    "author": "awogler9124812041",
+    "url": "https://www.reddit.com/r/bytebeat/comments/123jytq/morse_code_encoder/",
+    "date": "2023-03-27",
+    "sampleRate": 44100,
+    "file": "morzecode.js",
+    "fileOriginal": true,
+    "starred": 1
+  },
+  {
+    "author": "Kehkeown_Uai",
+    "url": "https://www.reddit.com/r/bytebeat/comments/124ksf6/x6b6xx_remix/",
+    "date": "2023-03-25",
+    "codeOriginal": "t*(t&-(t>>8)&t>>(t>>15)&t>>(t>>15))"
+  }
+]
